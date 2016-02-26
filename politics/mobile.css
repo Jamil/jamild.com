@@ -1,0 +1,63 @@
+body {
+  	background: url("bg.jpg") no-repeat fixed center;
+  	background-color:#00000;
+  	background-size: cover;
+}
+
+h1 {
+	color:white;
+	text-align:center;
+	font-family:"HelveticaNeue", "Helvetica", "Arial", sans-serif;
+	font-size:70px;
+}
+
+p {
+	color:white;
+	text-align:center;
+	font-family:"HelveticaNeue", "Helvetica", "Arial", sans-serif;
+	font-size:40px;
+}
+
+#display-table {
+	display:table;
+}
+
+#centered-content {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 1000px;
+   height: 500px;
+   margin-top: -250px; /* Half the height */
+   margin-left: -500px; /* Half the width */
+}
+
+a:link {
+	color:#FFFFFF;
+	text-decoration: underline;
+}
+a:visited {
+	color:#FFFFFF;
+	text-decoration: none;
+} 
+a:hover {
+	color:#FEFEFA;
+	text-decoration: none;
+}  
+a:active {
+	color:#FFFFFF;
+	text-decoration: none;
+} 
+
+*.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}

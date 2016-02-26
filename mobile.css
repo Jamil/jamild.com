@@ -1,0 +1,91 @@
+body {
+  	background: url("bg.jpg") 50% 50% no-repeat;
+  	background-color:#00000;
+    background-size:cover;
+}
+
+h1 {
+	color:white;
+	text-align:center;
+	font-family:"HelveticaNeue", "Helvetica", "Arial", sans-serif;
+	font-size:70px;
+}
+
+p {
+	color:white;
+	text-align:center;
+	font-family:"HelveticaNeue", "Helvetica", "Arial", sans-serif;
+	font-size:40px;
+}
+
+#display-table {
+	display:table;
+}
+
+#centered-content {
+	color:#FFFFFF;
+	position: absolute;
+    top: 40%;
+    left:30%;
+    height: 30%;
+    width: 90%;
+    margin: -15% 0 0 -25%;
+}
+
+a:link {
+	color:#FFFFFF;
+	text-decoration: underline;
+}
+a:visited {
+	color:#FFFFFF;
+	text-decoration: none;
+} 
+a:hover {
+	color:#FEFEFA;
+	text-decoration: none;
+}  
+a:active {
+	color:#FFFFFF;
+	text-decoration: none;
+} 
+
+*.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.circular {
+  position: absolute;
+    top: -10%;
+    left:65%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  background: url("profile.jpg") no-repeat;
+  background-size: 200px 200px;
+  }
+
+.social-image {
+    width:5%;
+    height:10%;
+    margin:0;
+    filter: invert(1);
+    -webkit-filter: invert(1);
+    -moz-filter: invert(1);
+    -o-filter: invert(1);
+    -ms-filter: invert(1);
+    opacity:0.8;
+}
